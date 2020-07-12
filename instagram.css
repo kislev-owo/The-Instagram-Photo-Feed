@@ -1,0 +1,39 @@
+body{
+    background: gray;
+    margin:0;
+}
+
+.post-header{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	align-items: center;
+    background-color:white;
+}  
+header{
+    background:gray; 
+    padding:20px; /*espacio entre el encabezado y el top de la pag  */
+}
+header h1{
+    background-color: white;
+    text-align: center;
+    margin-top: -20px; /*espacio entre el encabezado de la letras del titulo y el top.este valor debe ser igual al pading del header o muy menor para funcionar*/
+}
+div.pagcompleta{ 
+    background-color:gray;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+div.pagcompleta img{
+    width:100%;  
+}
+div.pagcompleta h2, div.pagcompleta p{ 
+    padding:10px;
+    background:white;
+}
+div.publicacion{
+    width: 600px;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+}
+
